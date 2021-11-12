@@ -1,10 +1,11 @@
-import React from 'react';
+import React, {FC} from 'react';
 import './App.css';
+import AppRouter from "./components/AppRouter";
 
-function App(): JSX.Element {
+const App: FC = () => {
   return (
       <div>
-        Работает!
+        <AppRouter/>
       </div>
   );
 }
